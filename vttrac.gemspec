@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.homepage         = 'https://github.com/thorinouchi/VTTrac'
   spec.licenses       = ["BSD-2-Clause"]
 
-  #spec.files         = Dir['{ext/numru/*[cb],lib/numru/*.rb'].sort + %w(ChangeLog LICENSE README.md Rakefile vttrac.gemspec Gemfile)
-  spec.files         = Dir['{ext/numru/*[cb],lib/numru/*.rb'].sort + %w(LICENSE README.md Rakefile vttrac.gemspec Gemfile)
+  #spec.files         = Dir['{ext/numru/*[cb],lib/numru/*.rb}'].sort + %w(ChangeLog LICENSE README.md Rakefile vttrac.gemspec Gemfile)
+  spec.files         = Dir['{ext/numru/*[hcb],lib/numru/*.rb}'].sort + %w(LICENSE README.md Rakefile vttrac.gemspec Gemfile)
   spec.require_paths = ["ext","lib"]
   spec.extensions << "ext/numru/extconf.rb"
 
